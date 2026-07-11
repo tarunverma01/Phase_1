@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anchorly is a calm, focused workspace that helps small teams plan projects, track progress, and ship work without the chaos of scattered tools.">
+  <meta name="keywords" content="Anchorly, project management, productivity tool, team workspace, task tracker">
+  <meta name="author" content="Anchorly">
+  <meta name="theme-color" content="#A5856F">
+
+  <title>Anchorly — Build Your Work on Solid Ground</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="header" id="header">
+    <nav class="navbar container" aria-label="Primary navigation">
+
+      <a href="#home" class="logo" aria-label="Anchorly home">
+        Anchor<span>ly</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+          <span aria-hidden="true">🌙</span>
+        </button>
+        <a href="#contact" class="btn btn-primary nav-cta">Get Started</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section id="home" class="hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+
+        <div class="hero-content reveal">
+          <span class="eyebrow">Calm, Focused Productivity</span>
+          <h1>Build your work on solid <span class="highlight">ground</span>.</h1>
+          <p class="hero-text">
+            Anchorly brings your tasks, notes, and timelines into one grounded workspace —
+            so your team spends less time managing tools and more time doing the work that matters.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Start Free Trial</a>
+            <a href="#services" class="btn btn-outline">Explore Features</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">12k+</span>
+              <span class="stat-label">Teams onboard</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">98%</span>
+              <span class="stat-label">On-time delivery</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">4.9/5</span>
+              <span class="stat-label">Average rating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image reveal">
+          <img src="images/hero.jpeg" alt="Preview of the Anchorly dashboard showing an organized project board" loading="lazy" width="560" height="480">
+          <div class="hero-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Live sync across devices
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container about-grid">
+
+        <div class="about-image reveal">
+          <img src="images/about.jpeg" alt="Team members reviewing a project plan together at a desk" loading="lazy" width="520" height="420">
+        </div>
+
+        <article class="about-content reveal">
+          <span class="eyebrow">Our Vision</span>
+          <h2>Structure that clears the way, not clutters it</h2>
+          <p>
+            We built Anchorly on one idea: a workspace should feel like solid ground, not another
+            thing to manage. Every screen is designed to answer three questions at a glance —
+            what's next, who owns it, and when it's due.
+          </p>
+
+          <ul class="about-list">
+            <li><span class="check" aria-hidden="true">✓</span> Single workspace for tasks, docs, and timelines</li>
+            <li><span class="check" aria-hidden="true">✓</span> Built mobile-first, so it works anywhere</li>
+            <li><span class="check" aria-hidden="true">✓</span> Accessible by design, for every teammate</li>
+            <li><span class="check" aria-hidden="true">✓</span> Clear structure, zero unnecessary noise</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="services" class="services section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="eyebrow">What We Offer</span>
+          <h2>Crafted for the way you actually work</h2>
+          <p>Four simple tools that cover the full life of a project, from first sketch to final ship.</p>
+        </div>
+
+        <div class="cards-grid">
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">🗂️</div>
+            <h3>Project Boards</h3>
+            <p>Organize work into clear columns and cards, so every task has a home and a status.</p>
+            <a href="#contact" class="card-link">Learn more →</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">🧭</div>
+            <h3>Timeline Planning</h3>
+            <p>Map milestones on a visual timeline and spot scheduling conflicts before they happen.</p>
+            <a href="#contact" class="card-link">Learn more →</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">💬</div>
+            <h3>Team Collaboration</h3>
+            <p>Comment, share files, and tag teammates without leaving the task you're working on.</p>
+            <a href="#contact" class="card-link">Learn more →</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">📊</div>
+            <h3>Progress Reports</h3>
+            <p>Auto-generated summaries show what shipped this week and what's at risk of slipping.</p>
+            <a href="#contact" class="card-link">Learn more →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="process section alt-bg">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="eyebrow">How It Works</span>
+          <h2>From blank page to shipped project</h2>
+          <p>A straightforward four-step flow that keeps every team moving in the same direction.</p>
+        </div>
+
+        <div class="process-grid">
+
+          <div class="process-step reveal">
+            <span class="step-number">01</span>
+            <h3>Discovery</h3>
+            <p>Set your goal, invite your team, and define what success looks like.</p>
+          </div>
+
+          <div class="process-step reveal">
+            <span class="step-number">02</span>
+            <h3>Plan</h3>
+            <p>Break the goal into tasks and lay them out across a clear timeline.</p>
+          </div>
+
+          <div class="process-step reveal">
+            <span class="step-number">03</span>
+            <h3>Build</h3>
+            <p>Work through tasks together with live updates and shared context.</p>
+          </div>
+
+          <div class="process-step reveal">
+            <span class="step-number">04</span>
+            <h3>Launch</h3>
+            <p>Review the final report, ship the work, and start the next milestone.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="eyebrow">What Teams Say</span>
+          <h2>Trusted by teams who value clarity</h2>
+        </div>
+
+        <div class="testimonial-grid">
+
+          <article class="testimonial-card reveal">
+            <p class="testimonial-text">
+              "Anchorly is the first tool our whole team actually kept using after week one.
+              Everything just has a place."
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Priya Menon</span>
+              <span class="author-role">Product Lead, Studio Nine</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <p class="testimonial-text">
+              "We cut our weekly status meetings in half. The progress reports say more than
+              a 30-minute call ever did."
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Daniel Cho</span>
+              <span class="author-role">Operations Manager, Fieldwork Co.</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <p class="testimonial-text">
+              "Simple, fast, and it works just as well on my phone as it does on my laptop.
+              Exactly what we needed."
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Aisha Rahman</span>
+              <span class="author-role">Founder, Greenline Collective</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section alt-bg">
+      <div class="container contact-grid">
+
+        <div class="contact-info reveal">
+          <span class="eyebrow">Get In Touch</span>
+          <h2>Let's build something solid together</h2>
+          <p>Have a question or want a walkthrough? Send us a message and we'll reply within one business day.</p>
+
+          <ul class="contact-details">
+            <li>
+              <span class="contact-icon" aria-hidden="true">📍</span>
+              123 Harbor Street, Lucknow, India
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">✉️</span>
+              hello@anchorly.app
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">📞</span>
+              +91 00000 00000
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <span class="error-message" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <span class="error-message" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us a little about your team..." required></textarea>
+            <span class="error-message" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <a href="#home" class="logo">Anchor<span>ly</span></a>
+        <p>A calm, grounded workspace for teams who want structure without the clutter.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Anchorly on Twitter">🐦</a>
+          <a href="#" aria-label="Anchorly on LinkedIn">💼</a>
+          <a href="#" aria-label="Anchorly on Instagram">📷</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#services">Features</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p>Get product news, no spam.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <label for="newsletterEmail" class="visually-hidden">Email address</label>
+          <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+          <button type="submit" aria-label="Subscribe">→</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> Anchorly. All rights reserved.</p>
+      <ul class="footer-legal">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top-btn" type="button" aria-label="Scroll back to top">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
